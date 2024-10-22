@@ -74,6 +74,7 @@ nav li{
     left: 300px;
     bottom: 400px;
     margin-left: 8px;
+    text-align: center;
 }
 .video-num{
     font-weight: 1000;
@@ -94,6 +95,7 @@ nav li{
     color: white;
     left: -50px;
     bottom: 400px;
+    text-align: center;
 }
 
 /* main style */
@@ -124,12 +126,14 @@ main{
 }
 
 /* join section style */
+
 .join-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:  rgba(168, 156, 156, 0.123);
     padding: 40px;
+    gap: 50px;
 }
 .join-title{
     font-weight: 1000;
@@ -141,3 +145,32 @@ main{
     height: auto;
     border-radius: 10px;
 }
+/* meet section style */
+
+.meet-section{
+    background-color:rgba(168, 156, 156, 0.123) ;
+    padding: 3px;
+    margin-top: 20px;
+    text-align: center;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    justify-content: space-between;
+    align-content: center;
+    gap: 15px;
+}
+.row{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+}
+.name{
+    font-weight:500;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left: -30px;
+}
+
