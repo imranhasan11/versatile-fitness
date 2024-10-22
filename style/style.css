@@ -122,3 +122,22 @@ main{
     font-size: 25px;
     color: white;
 }
+
+/* join section style */
+.join-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(168, 156, 156, 0.123);
+    padding: 40px;
+}
+.join-title{
+    font-weight: 1000;
+    font-size: 30px;
+    color: white;
+}
+.run-img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
