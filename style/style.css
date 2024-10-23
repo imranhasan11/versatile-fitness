@@ -52,7 +52,7 @@ nav li{
 .join-btn{
     font-weight: 300;
     font-size: 15px;
-    padding: 8px 50px;
+    padding: 8px 40px;
     color: white;
     background-color:rgba(230, 83, 60, 1);
     border-radius:20px;
@@ -61,7 +61,7 @@ nav li{
 .app-btn{
     font-weight: 300;
     font-size: 15px;
-    padding: 8px 50px;
+    padding: 8px 40px;
     color: white;
     background-color: black;
     border-radius: 20px;
@@ -290,4 +290,73 @@ li{
 .line{
     margin: 5px 200px;
     color:rgba(255, 255, 255, 0.418) ;
+}
+
+
+
+/* mobile responsive*/
+
+@media screen and (max-width:575px){ 
+     header{
+        margin: 8px 50px;
+     }
+    nav{
+        padding-top: 20px;
+    }
+    nav>ul{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+    main{
+        margin: 8px 50px;
+    }
+    .habit{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px 0;
+    }
+    .join-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        gap: 10px;
+    }
+    .run-img{
+        margin-top: 10px;
+    }
+    .bmi-chart{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .team{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    
+    } 
+    .footer{
+        width: 100%;
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px;
+        padding: 10px;
+    }
+    .line{
+        margin: 10px;
+    }
+     
 }
