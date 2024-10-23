@@ -1,6 +1,6 @@
-body{
+ body{
     background-color: black;
-}
+ }
 /* header style */
 header{
     margin: 20px 200px;
@@ -125,6 +125,79 @@ main{
     color: white;
 }
 
+/* calculator  section style */
+
+table, tr, td {
+    border: 1px solid  rgba(168, 156, 156, 0.123);
+    color: white;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+th{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+}
+td{
+    color: rgba(168, 156, 156, 0.322) ;
+    padding: 10px;
+}
+.calculator{
+    background-color: rgba(168, 156, 156, 0.123);
+}
+.bmi-chart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+}
+.bmi-title{
+    font-weight: 1000;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.bmi-description{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.418);
+}
+.chart-title{
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+input{
+    background-color:rgba(168, 156, 156, 0.123) ;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+}
+#gender{
+    background-color:rgba(168, 156, 156, 0.123) ;
+    color:rgba(168, 156, 156, 0.322) ;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+}
+select{
+    background-color:rgba(168, 156, 156, 0.123) ;
+    color:rgba(168, 156, 156, 0.322) ;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+}
+
 /* join section style */
 
 .join-section{
@@ -171,6 +244,6 @@ main{
     color: white;
     position: relative;
     bottom: 70px;
-    left: -30px;
+    left: -40px;
 }
 
