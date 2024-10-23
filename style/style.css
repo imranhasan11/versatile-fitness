@@ -13,7 +13,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 30px;
-    color: red;
+    color: rgba(230, 83, 60, 1);
 }
 nav ul{
     display: flex;
@@ -27,7 +27,7 @@ nav li{
     font-size: 20px;
 }
 .home{
-    color: coral;
+    color:rgba(230, 83, 60, 1);
 }
 
 /* header banner style */
@@ -52,18 +52,20 @@ nav li{
 .join-btn{
     font-weight: 300;
     font-size: 15px;
-    padding: 8px;
+    padding: 8px 50px;
     color: white;
-    background-color: coral;
+    background-color:rgba(230, 83, 60, 1);
     border-radius:20px;
+    border:none;
 }
 .app-btn{
     font-weight: 300;
     font-size: 15px;
-    padding: 8px;
+    padding: 8px 50px;
     color: white;
     background-color: black;
     border-radius: 20px;
+    border:1px solid white;
 }
 .video{
     background-color:  rgba(168, 156, 156, 0.123);
@@ -247,3 +249,45 @@ select{
     left: -40px;
 }
 
+/* footer style */
+.footer{
+    background-color:rgba(168, 156, 156, 0.123) ;
+    border-radius: 3px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 200px;
+    padding: 40px;
+}
+.fitness{
+    font-weight: 1200;
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+}
+.start-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.418);
+    padding: 2px;
+}
+.foot-description{
+    
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.418);
+    padding: 12px;
+    text-align: center;
+}
+.line{
+    margin: 5px 200px;
+    color:rgba(255, 255, 255, 0.418) ;
+}
